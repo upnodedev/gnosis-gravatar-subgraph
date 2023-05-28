@@ -1,14 +1,14 @@
-specVersion: 0.0.2
+specVersion: 0.0.3
 description: Gravatar for Ethereum
-repository: https://github.com/graphprotocol/example-subgraph
+repository: https://github.com/upnodedev/gnosis-gravatar-subgraph
 schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum/contract
     name: Gravity
-    network: mainnet
+    network: gnosis
     source:
-      address: '0x2E645469f354BB4F5c8a05B3b30A929361cf77eC'
+      address: '0xCA8efb19199BfEFF56B18061C2440874F76b61B1'
       abi: Gravity
     mapping:
       kind: ethereum/events
